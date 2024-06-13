@@ -14,10 +14,10 @@
 		22896AB12C1B3FD1003B43BB /* GameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22896AB02C1B3FD1003B43BB /* GameViewController.swift */; };
 		22896AB42C1B3FD1003B43BB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 22896AB22C1B3FD1003B43BB /* Main.storyboard */; };
 		22896AB62C1B3FD3003B43BB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 22896AB52C1B3FD3003B43BB /* Assets.xcassets */; };
-		22896AB92C1B3FD3003B43BB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 22896AB72C1B3FD3003B43BB /* LaunchScreen.storyboard */; };
 		22896AC32C1B3FD3003B43BB /* GliderTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22896AC22C1B3FD3003B43BB /* GliderTests.swift */; };
 		22896ACD2C1B3FD3003B43BB /* GliderUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22896ACC2C1B3FD3003B43BB /* GliderUITests.swift */; };
 		22896ACF2C1B3FD3003B43BB /* GliderUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22896ACE2C1B3FD3003B43BB /* GliderUITestsLaunchTests.swift */; };
+		22896ADD2C1B40B2003B43BB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 22896ADB2C1B40B2003B43BB /* LaunchScreen.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -46,12 +46,12 @@
 		22896AB02C1B3FD1003B43BB /* GameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameViewController.swift; sourceTree = "<group>"; };
 		22896AB32C1B3FD1003B43BB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		22896AB52C1B3FD3003B43BB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		22896AB82C1B3FD3003B43BB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		22896ABE2C1B3FD3003B43BB /* GliderTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GliderTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		22896AC22C1B3FD3003B43BB /* GliderTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GliderTests.swift; sourceTree = "<group>"; };
 		22896AC82C1B3FD3003B43BB /* GliderUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GliderUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		22896ACC2C1B3FD3003B43BB /* GliderUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GliderUITests.swift; sourceTree = "<group>"; };
 		22896ACE2C1B3FD3003B43BB /* GliderUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GliderUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		22896ADC2C1B40B2003B43BB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = ../../../Documents/GitHub/SkyGlider/SkyGlider/Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -109,7 +109,7 @@
 				22896AB02C1B3FD1003B43BB /* GameViewController.swift */,
 				22896AB22C1B3FD1003B43BB /* Main.storyboard */,
 				22896AB52C1B3FD3003B43BB /* Assets.xcassets */,
-				22896AB72C1B3FD3003B43BB /* LaunchScreen.storyboard */,
+				22896ADB2C1B40B2003B43BB /* LaunchScreen.storyboard */,
 			);
 			path = Glider;
 			sourceTree = "<group>";
@@ -238,7 +238,7 @@
 				22896AB42C1B3FD1003B43BB /* Main.storyboard in Resources */,
 				22896AAB2C1B3FD1003B43BB /* GameScene.sks in Resources */,
 				22896AB62C1B3FD3003B43BB /* Assets.xcassets in Resources */,
-				22896AB92C1B3FD3003B43BB /* LaunchScreen.storyboard in Resources */,
+				22896ADD2C1B40B2003B43BB /* LaunchScreen.storyboard in Resources */,
 				22896AAD2C1B3FD1003B43BB /* Actions.sks in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -311,10 +311,10 @@
 			name = Main.storyboard;
 			sourceTree = "<group>";
 		};
-		22896AB72C1B3FD3003B43BB /* LaunchScreen.storyboard */ = {
+		22896ADB2C1B40B2003B43BB /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				22896AB82C1B3FD3003B43BB /* Base */,
+				22896ADC2C1B40B2003B43BB /* Base */,
 			);
 			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
