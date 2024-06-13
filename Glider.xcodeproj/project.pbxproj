@@ -1,0 +1,613 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		22896AA92C1B3FD1003B43BB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22896AA82C1B3FD1003B43BB /* AppDelegate.swift */; };
+		22896AAB2C1B3FD1003B43BB /* GameScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = 22896AAA2C1B3FD1003B43BB /* GameScene.sks */; };
+		22896AAD2C1B3FD1003B43BB /* Actions.sks in Resources */ = {isa = PBXBuildFile; fileRef = 22896AAC2C1B3FD1003B43BB /* Actions.sks */; };
+		22896AAF2C1B3FD1003B43BB /* GameScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22896AAE2C1B3FD1003B43BB /* GameScene.swift */; };
+		22896AB12C1B3FD1003B43BB /* GameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22896AB02C1B3FD1003B43BB /* GameViewController.swift */; };
+		22896AB42C1B3FD1003B43BB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 22896AB22C1B3FD1003B43BB /* Main.storyboard */; };
+		22896AB62C1B3FD3003B43BB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 22896AB52C1B3FD3003B43BB /* Assets.xcassets */; };
+		22896AB92C1B3FD3003B43BB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 22896AB72C1B3FD3003B43BB /* LaunchScreen.storyboard */; };
+		22896AC32C1B3FD3003B43BB /* GliderTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22896AC22C1B3FD3003B43BB /* GliderTests.swift */; };
+		22896ACD2C1B3FD3003B43BB /* GliderUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22896ACC2C1B3FD3003B43BB /* GliderUITests.swift */; };
+		22896ACF2C1B3FD3003B43BB /* GliderUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22896ACE2C1B3FD3003B43BB /* GliderUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		22896ABF2C1B3FD3003B43BB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 22896A9D2C1B3FD1003B43BB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 22896AA42C1B3FD1003B43BB;
+			remoteInfo = Glider;
+		};
+		22896AC92C1B3FD3003B43BB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 22896A9D2C1B3FD1003B43BB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 22896AA42C1B3FD1003B43BB;
+			remoteInfo = Glider;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		22896AA52C1B3FD1003B43BB /* Glider.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Glider.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		22896AA82C1B3FD1003B43BB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		22896AAA2C1B3FD1003B43BB /* GameScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = GameScene.sks; sourceTree = "<group>"; };
+		22896AAC2C1B3FD1003B43BB /* Actions.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = Actions.sks; sourceTree = "<group>"; };
+		22896AAE2C1B3FD1003B43BB /* GameScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameScene.swift; sourceTree = "<group>"; };
+		22896AB02C1B3FD1003B43BB /* GameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameViewController.swift; sourceTree = "<group>"; };
+		22896AB32C1B3FD1003B43BB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		22896AB52C1B3FD3003B43BB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		22896AB82C1B3FD3003B43BB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		22896ABE2C1B3FD3003B43BB /* GliderTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GliderTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		22896AC22C1B3FD3003B43BB /* GliderTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GliderTests.swift; sourceTree = "<group>"; };
+		22896AC82C1B3FD3003B43BB /* GliderUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GliderUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		22896ACC2C1B3FD3003B43BB /* GliderUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GliderUITests.swift; sourceTree = "<group>"; };
+		22896ACE2C1B3FD3003B43BB /* GliderUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GliderUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		22896AA22C1B3FD1003B43BB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		22896ABB2C1B3FD3003B43BB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		22896AC52C1B3FD3003B43BB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		22896A9C2C1B3FD1003B43BB = {
+			isa = PBXGroup;
+			children = (
+				22896AA72C1B3FD1003B43BB /* Glider */,
+				22896AC12C1B3FD3003B43BB /* GliderTests */,
+				22896ACB2C1B3FD3003B43BB /* GliderUITests */,
+				22896AA62C1B3FD1003B43BB /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		22896AA62C1B3FD1003B43BB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				22896AA52C1B3FD1003B43BB /* Glider.app */,
+				22896ABE2C1B3FD3003B43BB /* GliderTests.xctest */,
+				22896AC82C1B3FD3003B43BB /* GliderUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		22896AA72C1B3FD1003B43BB /* Glider */ = {
+			isa = PBXGroup;
+			children = (
+				22896AA82C1B3FD1003B43BB /* AppDelegate.swift */,
+				22896AAA2C1B3FD1003B43BB /* GameScene.sks */,
+				22896AAC2C1B3FD1003B43BB /* Actions.sks */,
+				22896AAE2C1B3FD1003B43BB /* GameScene.swift */,
+				22896AB02C1B3FD1003B43BB /* GameViewController.swift */,
+				22896AB22C1B3FD1003B43BB /* Main.storyboard */,
+				22896AB52C1B3FD3003B43BB /* Assets.xcassets */,
+				22896AB72C1B3FD3003B43BB /* LaunchScreen.storyboard */,
+			);
+			path = Glider;
+			sourceTree = "<group>";
+		};
+		22896AC12C1B3FD3003B43BB /* GliderTests */ = {
+			isa = PBXGroup;
+			children = (
+				22896AC22C1B3FD3003B43BB /* GliderTests.swift */,
+			);
+			path = GliderTests;
+			sourceTree = "<group>";
+		};
+		22896ACB2C1B3FD3003B43BB /* GliderUITests */ = {
+			isa = PBXGroup;
+			children = (
+				22896ACC2C1B3FD3003B43BB /* GliderUITests.swift */,
+				22896ACE2C1B3FD3003B43BB /* GliderUITestsLaunchTests.swift */,
+			);
+			path = GliderUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		22896AA42C1B3FD1003B43BB /* Glider */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 22896AD22C1B3FD3003B43BB /* Build configuration list for PBXNativeTarget "Glider" */;
+			buildPhases = (
+				22896AA12C1B3FD1003B43BB /* Sources */,
+				22896AA22C1B3FD1003B43BB /* Frameworks */,
+				22896AA32C1B3FD1003B43BB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Glider;
+			productName = Glider;
+			productReference = 22896AA52C1B3FD1003B43BB /* Glider.app */;
+			productType = "com.apple.product-type.application";
+		};
+		22896ABD2C1B3FD3003B43BB /* GliderTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 22896AD52C1B3FD3003B43BB /* Build configuration list for PBXNativeTarget "GliderTests" */;
+			buildPhases = (
+				22896ABA2C1B3FD3003B43BB /* Sources */,
+				22896ABB2C1B3FD3003B43BB /* Frameworks */,
+				22896ABC2C1B3FD3003B43BB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				22896AC02C1B3FD3003B43BB /* PBXTargetDependency */,
+			);
+			name = GliderTests;
+			productName = GliderTests;
+			productReference = 22896ABE2C1B3FD3003B43BB /* GliderTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		22896AC72C1B3FD3003B43BB /* GliderUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 22896AD82C1B3FD3003B43BB /* Build configuration list for PBXNativeTarget "GliderUITests" */;
+			buildPhases = (
+				22896AC42C1B3FD3003B43BB /* Sources */,
+				22896AC52C1B3FD3003B43BB /* Frameworks */,
+				22896AC62C1B3FD3003B43BB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				22896ACA2C1B3FD3003B43BB /* PBXTargetDependency */,
+			);
+			name = GliderUITests;
+			productName = GliderUITests;
+			productReference = 22896AC82C1B3FD3003B43BB /* GliderUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		22896A9D2C1B3FD1003B43BB /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1420;
+				LastUpgradeCheck = 1420;
+				TargetAttributes = {
+					22896AA42C1B3FD1003B43BB = {
+						CreatedOnToolsVersion = 14.2;
+					};
+					22896ABD2C1B3FD3003B43BB = {
+						CreatedOnToolsVersion = 14.2;
+						TestTargetID = 22896AA42C1B3FD1003B43BB;
+					};
+					22896AC72C1B3FD3003B43BB = {
+						CreatedOnToolsVersion = 14.2;
+						TestTargetID = 22896AA42C1B3FD1003B43BB;
+					};
+				};
+			};
+			buildConfigurationList = 22896AA02C1B3FD1003B43BB /* Build configuration list for PBXProject "Glider" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 22896A9C2C1B3FD1003B43BB;
+			productRefGroup = 22896AA62C1B3FD1003B43BB /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				22896AA42C1B3FD1003B43BB /* Glider */,
+				22896ABD2C1B3FD3003B43BB /* GliderTests */,
+				22896AC72C1B3FD3003B43BB /* GliderUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		22896AA32C1B3FD1003B43BB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				22896AB42C1B3FD1003B43BB /* Main.storyboard in Resources */,
+				22896AAB2C1B3FD1003B43BB /* GameScene.sks in Resources */,
+				22896AB62C1B3FD3003B43BB /* Assets.xcassets in Resources */,
+				22896AB92C1B3FD3003B43BB /* LaunchScreen.storyboard in Resources */,
+				22896AAD2C1B3FD1003B43BB /* Actions.sks in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		22896ABC2C1B3FD3003B43BB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		22896AC62C1B3FD3003B43BB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		22896AA12C1B3FD1003B43BB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				22896AAF2C1B3FD1003B43BB /* GameScene.swift in Sources */,
+				22896AB12C1B3FD1003B43BB /* GameViewController.swift in Sources */,
+				22896AA92C1B3FD1003B43BB /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		22896ABA2C1B3FD3003B43BB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				22896AC32C1B3FD3003B43BB /* GliderTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		22896AC42C1B3FD3003B43BB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				22896ACD2C1B3FD3003B43BB /* GliderUITests.swift in Sources */,
+				22896ACF2C1B3FD3003B43BB /* GliderUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		22896AC02C1B3FD3003B43BB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 22896AA42C1B3FD1003B43BB /* Glider */;
+			targetProxy = 22896ABF2C1B3FD3003B43BB /* PBXContainerItemProxy */;
+		};
+		22896ACA2C1B3FD3003B43BB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 22896AA42C1B3FD1003B43BB /* Glider */;
+			targetProxy = 22896AC92C1B3FD3003B43BB /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		22896AB22C1B3FD1003B43BB /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				22896AB32C1B3FD1003B43BB /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		22896AB72C1B3FD3003B43BB /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				22896AB82C1B3FD3003B43BB /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		22896AD02C1B3FD3003B43BB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		22896AD12C1B3FD3003B43BB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		22896AD32C1B3FD3003B43BB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 8Y8MLLM6DZ;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UIStatusBarHidden = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = blackbucket.Glider;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		22896AD42C1B3FD3003B43BB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 8Y8MLLM6DZ;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UIStatusBarHidden = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = blackbucket.Glider;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		22896AD62C1B3FD3003B43BB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 8Y8MLLM6DZ;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = blackbucket.GliderTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Glider.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Glider";
+			};
+			name = Debug;
+		};
+		22896AD72C1B3FD3003B43BB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 8Y8MLLM6DZ;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = blackbucket.GliderTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Glider.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Glider";
+			};
+			name = Release;
+		};
+		22896AD92C1B3FD3003B43BB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 8Y8MLLM6DZ;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = blackbucket.GliderUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Glider;
+			};
+			name = Debug;
+		};
+		22896ADA2C1B3FD3003B43BB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 8Y8MLLM6DZ;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = blackbucket.GliderUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Glider;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		22896AA02C1B3FD1003B43BB /* Build configuration list for PBXProject "Glider" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				22896AD02C1B3FD3003B43BB /* Debug */,
+				22896AD12C1B3FD3003B43BB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		22896AD22C1B3FD3003B43BB /* Build configuration list for PBXNativeTarget "Glider" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				22896AD32C1B3FD3003B43BB /* Debug */,
+				22896AD42C1B3FD3003B43BB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		22896AD52C1B3FD3003B43BB /* Build configuration list for PBXNativeTarget "GliderTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				22896AD62C1B3FD3003B43BB /* Debug */,
+				22896AD72C1B3FD3003B43BB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		22896AD82C1B3FD3003B43BB /* Build configuration list for PBXNativeTarget "GliderUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				22896AD92C1B3FD3003B43BB /* Debug */,
+				22896ADA2C1B3FD3003B43BB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 22896A9D2C1B3FD1003B43BB /* Project object */;
+}
